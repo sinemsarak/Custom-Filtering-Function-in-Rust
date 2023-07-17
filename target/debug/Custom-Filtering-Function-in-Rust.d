@@ -1,0 +1,1 @@
+C:\Users\sinem\Desktop\github\ locals\Custom-Filtering-Function-in-Rust\target\debug\Custom-Filtering-Function-in-Rust.exe: C:\Users\sinem\Desktop\github\ locals\Custom-Filtering-Function-in-Rust\src\main.rs
