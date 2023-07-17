@@ -3,9 +3,13 @@ This is a simple command-line program written in Rust that allows you to determi
 
 # How It Works
 1- The program prompts you to enter a single letter to be counted within the text. After receiving your input, it validates that it is a single character and assigns it to the variable input_letter.
+
 2- Next, you are prompted to enter the text for which you want to determine the number of occurrences of the letter you provided. Once you enter the text, it is read and stored in the input variable.
+
 3- The program creates a FilterCondition instance with the provided input_letter. It applies the custom_filter function to the text, which filters out all the characters that match the provided letter.
+
 4- The filtered characters are collected into a vector called filtered_letters.
+
 5- Finally, the program displays the count of occurrences and the filtered letters in the order they appeared.
 
 # Additional Details
