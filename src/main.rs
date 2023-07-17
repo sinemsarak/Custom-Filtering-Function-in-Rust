@@ -26,7 +26,7 @@ fn main() {
     let input_letter: char;
 
     loop {
-        println!("Enter a letter to count in the text: ");
+        println!("Please provide a letter to be counted within the text.");
         let mut input = String::new();
         io::stdin().read_line(&mut input).expect("Read error");
 
@@ -37,7 +37,7 @@ fn main() {
             println!("Invalid input. Please enter a single character.");
         }
     }
-    println!("Enter a text to count the number of the letter {} ", input_letter);
+    println!("Please enter a text for which you would like to determine the number of the letter {} ", input_letter);
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Read error");
     
