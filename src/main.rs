@@ -43,6 +43,6 @@ fn main() {
     
     let string_slice: &str = input.trim();
     let filter_condition = FilterCondition { field: input_letter};
-    let filtered_letters = custom_filter(string_slice.chars().collect::<Vec<char>>().as_slice(), &filter_condition); // String'i karakterlerine ayırarak filtreleme işlemi yapıldı
+    let filtered_letters = custom_filter(string_slice.chars().collect::<Vec<char>>().as_slice(), &filter_condition); 
     println!("There are {} {}'s in the text. And here they are in order :D : {:?}",filtered_letters.len(), input_letter,filtered_letters);
 }
